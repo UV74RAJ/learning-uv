@@ -50,6 +50,13 @@
             <li>List Item</li>
             <li>List Item</li>
         </ul>
+
+        <input type="button" value="Button 1">
+        <input type="submit" value="Submit">
+        <input type="text">
+
+        <a href="https://www.google.co.in/" target="_blank">Google</a>
+        <a href="https://www.youtube.com/">YouTube</a>
     </div>
     <script>
         // $('h1').hide();
@@ -57,8 +64,17 @@
         // $('h1.heading2').hide();
         // $('.heading2').hide();
         $('p span').css('color', 'blue').css('backgroundColor','yellow');
-        $('ul#list li:first').css('color','red');
+
+        $('ul#list li:even').css('backgroundColor','aqua');        
+        $('ul#list li:odd').css('backgroundColor','#cccccc');
         $('ul#list li:last').css('backgroundColor','yellow');
+        $('ul#list li:even').css('color','blue');
+        $('ul#list li:first').css('color','red');
+        $('ul#list li:last').css('color', '#f21fcc');
+        $('ul#list li:nth-child(3n)').css('list-style', 'none')
+        $(':submit').hide();
+        $('[href]').css('color','red');
+        $('a[href="https://www.youtube.com/"]').css('color','green');
     </script>
 </body>
 </html>
