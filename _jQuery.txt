@@ -3,8 +3,41 @@ Updated on 17-feb-22 -----------------------------------------------------------
 jQuery  - small, fast & feature rich js library
 		- DOM manipulation, event handling, Ajax
 		- extensive functionality with less code
-		
+ jQuery is just a JavaScript library
+
+Adding jQuery
+	Test Page 
+			<!doctype html>
+			<html>
+			<head>
+				<meta charset="utf-8">
+				<title>Demo</title>
+			</head>
+			<body>
+				<a href="http://jquery.com/">jQuery</a>
+				<script src="jquery.js"></script>
+				<script>
+			 
+				// Your code goes here.
+			 
+				</script>
+			</body>
+			</html>
+*Download a copy of jQuery from the Downloading jQuery page[https://jquery.com/download/] and store the jquery.js file in the same directory as your HTML file.
+
+Adding the url directly
 CDN: https://code.jquery.com/jquery-3.6.0.min.js
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+using JSscript in 'head' tag
+ <script>
+        $(document).ready(function(){ 
+		//rest code goes here
 		
 
+
+
+
+
+
+reference: https://learn.jquery.com/about-jquery/additional-support/
